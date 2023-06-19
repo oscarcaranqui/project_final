@@ -14,9 +14,11 @@ Ejecute el proyecto siguiendo los siguientes pasos:
 
 
 1. Clone el repositorio del proyecto:
+2. 
 ```
-https://github.com/oscarcaranqui/leds
+https://github.com/oscarcaranqui/project_final
 ```
+
 2. Ir al directorio raiz:
 
 ```
