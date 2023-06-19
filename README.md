@@ -14,15 +14,14 @@ Ejecute el proyecto siguiendo los siguientes pasos:
 
 
 1. Clone el repositorio del proyecto:
-2. 
 ```
-https://github.com/oscarcaranqui/project_final
+git clone https://github.com/oscarcaranqui/project_final
 ```
 
 2. Ir al directorio raiz:
 
 ```
-cd ~/project_final
+cd project_final
 ```
 
 3. Instalar dependecias:
