@@ -1,0 +1,26 @@
+.customer-data form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.service-selection form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.service-selection form .MuiFormControl-root {
+  margin-bottom: 1em;
+  min-width: 200px;
+  width: 300px;
+}
+
+.service-selection form .MuiTextField-root {
+  padding: 8px;
+}
+
+.service-selection form .MuiFormControl-root .MuiInputLabel-root {
+  padding-top: 8px;
+}
+

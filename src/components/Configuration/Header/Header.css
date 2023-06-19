@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5em;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar.light {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.navbar.dark {
+  background-color:  #333 ;
+  color: #f0f0f0;
+}
+
+.theme-toggle-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+/* Añadir estilos para enlaces */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1em;
+
+}
+
+/* Estilos para enlaces cuando se les aplica la clase 'active' */
+.navbar a.active {
+  font-weight: bold;
+}
+
+/* Estilos para el botón del tema */
+.theme-toggle-button:hover {
+  transform: scale(2);
+}
+
+/* Estilos para el botón del tema en modo claro */
+.navbar.light .theme-toggle-button {
+  color: #333;
+}
+
+/* Estilos para el botón del tema en modo oscuro */
+.navbar.dark .theme-toggle-button {
+  color: #f0f0f0;
+}
+
+/* Estilos para el logotipo */
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Estilos para el menú de navegación */
+.navbar .menu {
+  display: flex;
+}
+
+/* Estilos para los elementos del menú */
+.navbar .menu li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+/* Estilos para los elementos del menú cuando se les aplica la clase 'active' */
+.navbar .menu li.active {
+  font-weight: bold;
+}
+
+/* Estilos para los elementos del menú al pasar el ratón por encima */
+.navbar .menu li:hover {
+  text-decoration: underline;
+}
